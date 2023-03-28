@@ -15,6 +15,10 @@ module.exports = {
         inter: ['Inter', 'sans serif'],
         deca: ['Lexend Deca', 'sans serif'],
       },
+      backgroundImage: (theme) => ({
+        'small-screen': "url('../images/image-header-mobile.jpg')",
+        'medium-screen': "url('../images/image-header-desktop.jpg')",
+      }),
     },
   },
   plugins: [],
